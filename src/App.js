@@ -1,10 +1,15 @@
 import React from "react";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 
+// components
 import Nav from "./components/Nav"
 
+// Pages
 import HomePage from "./pages/HomePage"
 import ProjectPage from "./pages/ProjectPage";
+
+// styles
+import "./App.css";
 
 function App() {
   return (
