@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 
 function Nav() {
     return (
-        <nav>
+        <nav id="navigation">
             <Link to="/">HomePage</Link>
+            <Link to="/login">Login</Link>
         </nav>
     );
 }
