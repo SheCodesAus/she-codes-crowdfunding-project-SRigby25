@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 
 
 // components
-import Title from "./components/Title"
+import Title from "./components/TitlePage/Title"
 import Nav from "./components/Nav"
 import About from "./components/About"
 import Categorys from "./components/Categorys";
@@ -23,8 +23,6 @@ function App() {
     <Router>
       <div>
         <Title />
-        
-        
         <Nav /> <About /> <Categorys />
         <Routes>
           <Route path="/post" element={<PostPage />} /> 
@@ -33,6 +31,14 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/user" element={<CreateUser />} />
         </Routes>
+
+
+
+
+
+
+
+
 
       </div>
     </Router>

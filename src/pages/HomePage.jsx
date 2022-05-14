@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react";
 
 // Component
 import ProjectCard from "../components/ProjectCard/ProjectCard";
+import About from "../components/About";
 
 // data
 import { allProjects } from "../data";
+
 
 
 
@@ -22,7 +24,9 @@ useEffect(() => {
     });
 }, []);
 
+
     return (
+        
         <div id="project-list">
             
             {projectList.map((projectData, key) => {

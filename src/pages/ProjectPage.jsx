@@ -29,13 +29,19 @@ function ProjectPage() {
     // normal State
 
     return (
-        <div>
+        <div id="idea">
         <h2>{projectData.title}</h2>
-        <h3>About: {projectData.description}</h3>
-        <h3>{`Status: ${projectData.is_open}`}</h3>
-        <h3> Submitted by: {projectData.owner} </h3>
-        <h3> When the worlds best idea was created: {projectData.date_created} </h3>
+        <h3>About:</h3>
+        {projectData.description}
+        {/* <h3>{`Status: ${projectData.is_open}`}</h3> */}
+        <h3> Submitted by: </h3>
+        {projectData.owner}
+        <h3> When the worlds best idea was created:</h3>
+        {projectData.date_created}
+        <div>
         {projectData.image}
+        </div>
+        <div id="form"> 
         <h3>Pledges:</h3>
         <ul>
         {projectData.pledges.map((pledgeData, key) => {
@@ -46,7 +52,9 @@ function ProjectPage() {
             );
         })}
     </ul>
+    
     <PledgeForm projectId={id}/>
+    </div>
     </div>
     );
 }
