@@ -3,6 +3,26 @@
   grid-template-columns: 30% 30% 30%;
   column-gap: 10px;
   row-gap: 10px;
+  margin: auto;
+  width: 75%;
+  }
+
+
+#nav {
+  text-align: center;
+  font-size: x-small;
+  padding: 10px;
 }
 
+#cat {
+  text-align: center;
+  font-size: medium;
+  padding: 10px;
+}
 
+#post {
+  column-gap: 10px;
+  row-gap: 10px;
+  margin: auto;
+
+}

@@ -4,6 +4,7 @@ function Title() {
   return (
     <div id="title">
       <h1>DrunkCEO</h1>
+      
     </div>
   )
 }

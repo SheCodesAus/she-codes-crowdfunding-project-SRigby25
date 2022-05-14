@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"
 
-function LoginForm() {
+function NewUser() {
 
     const [credentials, setCredentials] = useState({
         username: "",
         password: "",
+        favdrink: "",
     });
 
     const navigate = useNavigate();
@@ -53,9 +54,13 @@ function LoginForm() {
                 <label htmlFor="password">Password:</label>
                 <input type="password"id="password"placeholder="Password" onChange={handleChange}/>
             </div>
+            <div>
+                <label htmlFor="drink">Fav drink:</label>
+                <input type="drink"id="drink"placeholder="Drink" onChange={handleChange}/>
+            </div>
             <button type="submit" onClick={handleSubmit}>Login</button>
         </form>
     );
 }
 
-export default LoginForm;
+export default NewUser;

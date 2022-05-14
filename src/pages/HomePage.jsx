@@ -24,6 +24,7 @@ useEffect(() => {
 
     return (
         <div id="project-list">
+            
             {projectList.map((projectData, key) => {
                 return <ProjectCard key={key} projectData={projectData} />;
              })}
