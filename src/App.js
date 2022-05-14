@@ -22,7 +22,10 @@ function App() {
   return (
     <Router>
       <div>
-        <Title /><Nav /> <About /> <Categorys />
+        <Title />
+        
+        
+        <Nav /> <About /> <Categorys />
         <Routes>
           <Route path="/post" element={<PostPage />} /> 
           <Route path="/login" element={<LoginPage />} />
