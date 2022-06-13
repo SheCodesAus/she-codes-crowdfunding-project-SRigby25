@@ -14,6 +14,7 @@ code {
 
 
 
+<<<<<<< HEAD
 body {
   background-color: #cccccc;
   /* background-image: url("/Users/SianRigby/Desktop/Shecodes/she-codes-crowdfunding-project-SRigby25/public/green.jpeg") ; */
@@ -23,3 +24,10 @@ body {
 h2 {
   font-size: 50px;
 }
+=======
+#title {
+  font-size: xx-large;
+  text-align: center;
+}
+
+>>>>>>> parent of 23e6460 (Updating home page)

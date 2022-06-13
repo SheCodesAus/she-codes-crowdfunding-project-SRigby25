@@ -22,8 +22,12 @@ function App() {
   return (
     <Router>
       <div>
+<<<<<<< HEAD
         <Title />
         <Nav /> <About /> <Categorys />
+=======
+        <Title /><Nav /> <About /> <Categorys />
+>>>>>>> parent of 23e6460 (Updating home page)
         <Routes>
           <Route path="/post" element={<PostPage />} /> 
           <Route path="/login" element={<LoginPage />} />
